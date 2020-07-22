@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link rel='icon' href="favicon.png" type="image/x-icon">
+  <title>Vote Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+ </head>
+ <body>
+  <h1> Select the product that most interests you</h1>
+  <section>
+    <ul id="three-images">
+      <li><img id="image-left" src="img/busmall-150.jpg"/>
+      </li>
+      <li><img id="image-center" src="img/busmall-150.jpg"/>
+      </li>
+      <li><img id="image-right" src="img/busmall-150.jpg"/>
+      </li>
+    </ul>
+  </section>
+    <ul id="results" class="results"></ul>
+  </section>
+  <button id="btn-next" class="btn-next">next round</button>
+  <button id="btn-global" class="btn-global">show global data</button>
+  <button id="btn-clr-user" class="btn-clr-user">clear user data</button>
+  <button id="btn-clr-global" class="btn-clr-global">clear global data</button>
+  <canvas id="user-times-clicked" width="900px" height="300px"> </canvas>
+  <canvas id="user-times-shown" width="900px" height="300px"> </canvas> 
+  <canvas id="global-times-clicked" width="900px" height="300px"> </canvas>
+  <canvas id="global-times-shown" width="900px" height="300px"> </canvas>
+  <script src="app.js"></script>
+</body>
+</html>

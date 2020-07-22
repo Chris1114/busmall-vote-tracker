@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    border: 5px solid lightcoral;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    height: 150px;
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+.results li {
+  border: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  display: list-item;
+  border-radius: 0%;
+  background-color: white;
+  height: auto;
+  padding: 0%;
+  margin: 0%;
+}
+
+.btn-next {
+    display: inline-block;
+    margin: auto;
+    color: lightgray
+}
+
+.btn-global {
+    display: inline-block;
+    margin: auto;
+}
+
+.btn-clr-user {
+    display: inline-block;
+    margin: auto;
+}
+
+.btn-clr-global {
+    display: inline-block;
+    margin: auto;
+}
+
+.clickable {
+color: black}
+
+
+.hide {
+    display: none;
+}
